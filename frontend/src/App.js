@@ -3,12 +3,14 @@ import './App.css';
 import { Navbar } from './component/Navbar/Navbar';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import { darkTeme } from './Theme/DarkTheme';
+import Home from './component/Home/Home';
 
 function App() {
   return (
     <ThemeProvider theme={darkTeme}>
       <CssBaseline/>
-<Navbar/>
+    <Navbar/>
+    <Home/>
       
       
     </ThemeProvider>
