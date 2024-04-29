@@ -11,7 +11,7 @@ export const Navbar = () => {
 
         
             <div className='lg:mr-10 cursor-pointer flex items-center space-x-4'>
-                <li className='logo font-semibold text-gray-300 text-2xl'>
+                <li className='logo font-semibold tracking-wide uppercase italic text-2xl' style={{ textShadow: '0 0 2px black', color:'#f03429' }}>
                     My pet
                 </li>
 
