@@ -6,10 +6,11 @@ import { Button, Card, Grid } from "@mui/material";
 import AddLocationAltIcon from "@mui/icons-material/AddLocationAlt";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
-import { Formik, Form, Field, ErrorMessage } from "formik";
+
+import {  Form, Field, ErrorMessage, Formik } from "formik";
 //import * as Yup from "yup";
 
-const style = {
+export const style = {
   position: "absolute",
   top: "50%",
   left: "50%",
