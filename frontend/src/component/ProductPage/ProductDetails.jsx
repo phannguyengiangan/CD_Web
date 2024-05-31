@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Slide } from "react-slideshow-image";
-import 'react-slideshow-image/dist/styles.css';
 
+import "react-slideshow-image/dist/styles.css";
 import {
   FormControlLabel,
   Divider,
