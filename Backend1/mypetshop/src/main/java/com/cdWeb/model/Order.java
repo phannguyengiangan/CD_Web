@@ -44,7 +44,7 @@ public class Order {
 
     private int totalItems;
 
-    private int totalPrice;
+    private Long totalPrice;
 
 
 
